@@ -18,6 +18,10 @@ module.exports = {
       backgroundImage:{
         'comilla': "url('./images/bg-pattern-quotation.svg')"
       },
+
+      zIndex:{
+        '900':'900'
+      },
     },
   },
   plugins: [],
