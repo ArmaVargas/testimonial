@@ -27,6 +27,10 @@ module.exports = {
       backgroundSize: {
         '1/2': '23%',
       },
+
+      screens:{
+        'pq': '375px'
+      }
     },
   },
   plugins: [],
