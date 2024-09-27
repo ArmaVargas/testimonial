@@ -26,6 +26,7 @@ module.exports = {
 
       backgroundSize: {
         '1/2': '23%',
+        '1/5': '36%',
       },
 
       screens:{
