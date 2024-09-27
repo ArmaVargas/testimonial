@@ -558,18 +558,6 @@ video {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
-.z-50 {
-  z-index: 50;
-}
-
-.z-900 {
-  z-index: 900;
-}
-
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -598,60 +586,24 @@ video {
   grid-row-start: 5;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.-mt-\[150px\] {
-  margin-top: -150px;
-}
-
-.-mt-\[100px\] {
-  margin-top: -100px;
-}
-
-.-mt-\[80px\] {
-  margin-top: -80px;
-}
-
-.-mt-\[90px\] {
-  margin-top: -90px;
-}
-
-.ml-24 {
-  margin-left: 6rem;
-}
-
-.mb-\[20px\] {
-  margin-bottom: 20px;
-}
-
-.ml-\[150px\] {
-  margin-left: 150px;
-}
-
-.ml-\[300px\] {
-  margin-left: 300px;
+.-mt-\[24px\] {
+  margin-top: -24px;
 }
 
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
-.-mt-\[24px\] {
-  margin-top: -24px;
-}
-
-.-mt-\[-24px\] {
-  margin-top: 24px;
-}
-
-.ml-\[360px\] {
-  margin-left: 360px;
+.mb-\[20px\] {
+  margin-bottom: 20px;
 }
 
 .ml-\[380px\] {
   margin-left: 380px;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .flex {
@@ -662,12 +614,12 @@ video {
   display: grid;
 }
 
-.h-\[800px\] {
-  height: 800px;
-}
-
 .h-\[126px\] {
   height: 126px;
+}
+
+.h-\[800px\] {
+  height: 800px;
 }
 
 .min-h-screen {
@@ -676,6 +628,10 @@ video {
 
 .w-\[1300px\] {
   width: 1300px;
+}
+
+.w-\[195px\] {
+  width: 195px;
 }
 
 .grid-cols-12 {
@@ -704,6 +660,19 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-border {
+  --tw-border-opacity: 1;
+  border-color: rgb(167 117 242 / var(--tw-border-opacity));
 }
 
 .bg-LightGrayishBlue {
@@ -735,12 +704,12 @@ video {
   background-image: url('./images/bg-pattern-quotation.svg');
 }
 
-.bg-right-top {
-  background-position: right top;
+.bg-1\/2 {
+  background-size: 23%;
 }
 
-.bg-left-top {
-  background-position: left top;
+.bg-\[top_left_415px\] {
+  background-position: top left 415px;
 }
 
 .bg-no-repeat {
@@ -763,6 +732,10 @@ video {
   font-size: 24px;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -774,6 +747,11 @@ video {
 .text-LightGray {
   --tw-text-opacity: 1;
   color: hsl(0 0% 81% / var(--tw-text-opacity));
+}
+
+.text-VeryDarkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(217 19% 35% / var(--tw-text-opacity));
 }
 
 .text-white {

@@ -22,6 +22,7 @@
     <title>Frontend Mentor | [Challenge Name Here]</title>
 
     <link href="./output.css" rel="stylesheet" />
+  
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
@@ -33,16 +34,15 @@
       }
     </style>
   </head>
-  <body class=" font-Barlow bg-LightGrayishBlue flex justify-center items-center flex-col min-h-screen">
+  <body class=" font-Barlow bg-LightGrayishBlue flex justify-center items-center flex-col min-h-screen font-medium  ">
 
     <main class="grid gap-8 grid-cols-12 grid-rows-8 w-[1300px] h-[800px] ">
 
-      <section class="col-span-6 row-span-4 bg-ModerateViolet p-[25px] text-white bg-comilla bg-no-repeat bg-right-top">
+      <section class="col-span-6 row-span-4 bg-ModerateViolet p-[25px] text-white rounded-lg  bg-comilla bg-1/2 bg-no-repeat  bg-[top_left_415px]">
 
-      <!--<img src="images/bg-pattern-quotation.svg" alt="" class="absolute ml-[380px] h-[126px] -mt-[24px]">-->
-
+     <!-- <img src="images/bg-pattern-quotation.svg" alt="" class=" absolute ml-[380px] h-[126px] -mt-[24px] ">-->
         <div class="flex mb-[20px]">
-        <img src="images/image-daniel.jpg" alt="" class="rounded-full" />
+        <img src="images/image-daniel.jpg" alt="" class="rounded-full border-2 border-border" />
           <div class="flex-col mt-1 pl-5">
         <p class="font-semibold">Daniel Clifford</p>
         <p class="text-LightGray">Verified Graduate</p>
@@ -51,12 +51,12 @@
      
 
       </div>
-        <h2 class="font-semibold text-[24px] leading-tight mb-6">
+        <h2 class="font-semibold text-[24px] leading-tight mb-6 texto">
           I received a job offer mid-course, and the subjects I learned were
           current, if not more so, in the company I joined. I honestly feel I
           got every penny’s worth.
         </h2>
-        <p class="text-LightGray"">
+        <p class="text-LightGray">
           “ I was an EMT for many years before I joined the bootcamp. I’ve been
           looking to make a transition and have heard some people who had an
           amazing experience here. I signed up for the free intro course and
@@ -67,8 +67,8 @@
         </p>
       </section>
 
-      <section class=" row-span-4 col-span-3 col-start-7 bg-VeryDarkGrayishBlue p-[25px] text-white">
-        <div class="flex">
+      <section class=" row-span-4 col-span-3 col-start-7 bg-VeryDarkGrayishBlue p-[25px]   text-white rounded-lg">
+        <div class="flex mb-[20px]">
           <img src="images/image-jonathan.jpg" alt=""  class="rounded-full"/>
 
           <div class="flex-col mt-1 pl-5">
@@ -80,9 +80,9 @@
 
       
 
-        <h2>The team was very supportive and kept me motivated</h2>
+        <h2 class="font-semibold text-[24px] leading-tight mb-6">The team was very supportive and kept me motivated</h2>
 
-        <p>
+        <p class="text-LightGray">
           “ I started as a total newbie with virtually no coding skills. I now
           work as a mobile engineer for a big company. This was one of the best
           investments I’ve made in myself. ”
@@ -90,31 +90,42 @@
       </section>
 
 
-      <section class="col-span-3 row-span-4 row-start-5 bg-white p-[25px]">
-        <img src="images/image-jeanette.jpg" alt="" />
-        <p>Jeanette Harmon</p>
-        <p>Verified Graduate</p>
+      <section class="col-span-3 row-span-4 row-start-5 bg-white p-[25px] rounded-lg text-VeryDarkGrayishBlue font-medium">
 
-        <h2>An overall wonderful and rewarding experience</h2>
 
-        <p>
+        <div class="flex mb-[20px]">
+        <img src="images/image-jeanette.jpg" alt="" class="rounded-full" />
+        <div class="flex-col mt-1 pl-5">
+        <p class=" font-semibold ">Jeanette Harmon</p>
+        <p class="text-LightGray" >Verified Graduate</p>
+      </div>
+      </div>
+
+        <h2 class="font-semibold text-[24px] leading-tight mb-6  w-[195px]">An overall wonderful and rewarding experience</h2>
+
+        <p class="text-VeryDarkGrayishBlue ">
           “ Thank you for the wonderful experience! I now have a job I really
           enjoy, and make a good living while doing something I love. ”
         </p>
       </section>
 
-      <section class="col-span-6 row-span-4 col-start-4 row-start-5 bg-VeryDarkBlackishBlue p-[25px]">
-        <img src="images/image-patrick.jpg" alt="" />
-        <p>Patrick Abrams</p>
-        <p>Verified Graduate</p>
+      <section class="col-span-6 row-span-4 col-start-4 row-start-5 bg-VeryDarkBlackishBlue p-[25px] rounded-lg text-white  font-medium">
 
-        <h2>
+        <div class="flex mb-[20px]">
+
+          <img src="images/image-patrick.jpg" alt="" class="rounded-full border-2 border-border"/>
+                <div class="flex-col mt-1 pl-5">
+                    <p class="font-semibold ">Patrick Abrams</p>
+                    <p class="text-LightGray">Verified Graduate</p>
+              </div>
+        </div>
+        <h2 class="font-semibold text-[24px] leading-tight mb-6 ">
           Awesome teaching support from TAs who did the bootcamp themselves.
           Getting guidance from them and learning from their experiences was
           easy.
         </h2>
 
-        <p>
+        <p class="text-LightGray ">
           “ The staff seem genuinely concerned about my progress which I find
           really refreshing. The program gave me the confidence necessary to be
           able to go out in the world and present myself as a capable junior
@@ -126,14 +137,20 @@
 
       
 
-      <section class="col-span-3 row-span-8 col-star-10 bg-white p-[25px]">
-        <img src="images/image-kira.jpg" alt="" />
-        <p>Kira Whittle</p>
-        <p>Verified Graduate</p>
+      <section class="col-span-3 row-span-8 col-star-10 bg-white p-[25px] rounded-lg text-VeryDarkGrayishBlue">
+        
+        <div class="flex mb-[20px]">
+          <img src="images/image-kira.jpg" alt="" class="rounded-full"/>
 
-        <h2>Such a life-changing experience. Highly recommended!</h2>
+              <div class="flex-col mt-1 pl-5">
+                 <p class="font-semibold ">Kira Whittle</p>
+                 <p class="text-LightGray font-medium">Verified Graduate</p>
+            </div>
+        </div>
+     
+        <h2 class="font-semibold text-[24px] leading-tight mb-6 ">Such a life-changing experience. Highly recommended!</h2>
 
-        <p>
+        <p class="font-medium text-VeryDarkGrayishBlue">
           “ Before joining the bootcamp, I’ve never written a line of code. I
           needed some structure from professionals who can help me learn
           programming step by step. I was encouraged to enroll by a former
@@ -153,7 +170,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Armando Vargas</a>.
     </div>
   </body>
 </html>

@@ -10,6 +10,7 @@ module.exports = {
         "White": "hsl(0, 0%, 100%)",
         "LightGray": "hsl(0, 0%, 81%)",
         "LightGrayishBlue": "hsl(210, 46%, 95%)",
+        "border": "#A775F2"
       },
 
       fontFamily:{
@@ -21,6 +22,10 @@ module.exports = {
 
       zIndex:{
         '900':'900'
+      },
+
+      backgroundSize: {
+        '1/2': '23%',
       },
     },
   },
